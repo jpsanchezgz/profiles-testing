@@ -1,0 +1,48 @@
+.profiles {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 100px;
+    
+    article {
+        
+        background-color: #FF5733;
+        width: 20%;
+        border-radius: 8px;
+        filter: drop-shadow(8px 8px 20px gray);
+
+        &:hover {
+            background-color: yellow;
+            transform: scale(1.5);
+            transition: 1.5s;
+        }
+        
+    
+
+    
+
+        .hola {
+            margin-left: 15px;
+        }
+    
+
+        .profile-container {
+
+            display: flex;
+            padding: 1rem;
+
+            img {
+                width: 40px;
+                border-radius: 50%;
+            }
+
+            .info-profile {
+
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+            }
+        }
+
+    }
+}

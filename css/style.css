@@ -1,0 +1,54 @@
+.profiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.profiles article {
+  background-color: #FF5733;
+  width: 20%;
+  border-radius: 8px;
+  -webkit-filter: drop-shadow(8px 8px 20px gray);
+          filter: drop-shadow(8px 8px 20px gray);
+}
+
+.profiles article:hover {
+  background-color: yellow;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.profiles article .hola {
+  margin-left: 15px;
+}
+
+.profiles article .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.profiles article .profile-container img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.profiles article .profile-container .info-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 15px;
+}
+/*# sourceMappingURL=style.css.map */
